@@ -268,7 +268,7 @@
 										<h4 style="margin-top: 30px; margin-bottom: 50; "> ccIC27 Wakeup Word "Hey, Genesis"</h4>
 										<h5 style="margin-top: 0; margin-bottom: 0;"> [My Role] </h5>
 										<p style="margin-top: 0; margin-bottom: 0;"> 1. Kakao/42Dot 인식 엔진을 포팅하여 음성으로 어플리케이션을 호출하는 Wakeup 기능을 구현</p>
-										<p style="margin-top: 0; margin-bottom: 0;"> 2. NotifyWakeupSignal 이벤트 수신 시 해당 시점으로부터 2.24s의 음성 버퍼를 링버퍼에서 추출하여 엔진에 전달 </p>
+										<p style="margin-top: 0; margin-bottom: 0;"> 2. NotifyWakeupSignal 이벤트 수신 시 해당 시점으로부터 2.24s의 음성 버퍼를 링버퍼에서 추출하여 엔진에 전달하고, </p>
 										<p style="margin-top: 0; margin-bottom: 0;">   엔진 인식 결과 (detected, unknown, error)에 따라 다음 시나리오 진행 </p>
 										<p style="margin-top: 0; margin-bottom: 0;"> 3. One-Shot 발화 (Hey, Genesis. How is the weather?) 동작 처리를 위해  </p>
 										<p style="margin-top: 0; margin-bottom: 0;">   Mic Input 에서 Wakeup 명령어를 제외한 부분만을 인식하도록 구현 :  ALSA api, RingBuffer</p>
